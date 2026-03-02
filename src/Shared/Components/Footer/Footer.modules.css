@@ -1,0 +1,39 @@
+.footer{
+    background-color: #474747;
+}
+.footer .btn{
+    color: #eee;
+    background-color: #406AB3;
+    padding: 8px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer h5{
+    color: var(--main-color);
+    font-size: 16px;
+}
+.footer .location i,
+.footer .call-center i{
+    font-size: 28px;
+    margin-right: 15px;
+}
+.footer .location h6{
+    font-size: 14px;
+}
+.footer .location span{
+    font-size: 15px;
+}
+.footer .links i{
+    color: #eee;
+    font-size: 18px;
+}
+.footer a{
+    text-decoration: none;
+    color: #eee;
+}
+.copy-right{
+    background-color: #000;
+}

@@ -1,0 +1,92 @@
+.services{
+    background-color: #f8faff;
+}
+.service-card {
+    width: 260px;
+    height: 260px;
+    background: #f1f1f1;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 35px 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+
+    animation: floatCard 2s ease-in-out infinite alternate;
+}
+
+.service-card:hover {
+    transform: translateY(-10px) scale(1.03) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.service-data .icon {
+    font-size: 28px;
+    color: var(--main-color-dark);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover .icon {
+    transform: scale(1.15) rotate(6deg);
+    font-size: 40px;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.service-desc {
+    color: #606a78;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.swiper {
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    height: auto !important;
+    align-items: flex-start;
+}
+
+.swiper-pagination-bullets {
+    bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: var(--main-color);
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: var(--main-color-dark);
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+@keyframes floatCard {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

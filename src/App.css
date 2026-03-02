@@ -1,0 +1,17 @@
+.App{
+  text-align: center;
+}
+:root {
+  --main-color: #F08A3E;
+  --main-color-dark: #d9732f;
+  --main-color-light: #f6a76c;
+  --main-color-extra-light: #fde7d7; 
+  --main-color-rgb: 240, 138, 62;
+  --text-muted: #777;
+}
+/* #00adb5 base*/
+/* #1d667e title */
+/* #00adb5,#00959c ✓ */
+/* border-color: rgba(0, 173, 181, 0.3);*/
+/* box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15); */
+

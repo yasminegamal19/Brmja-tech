@@ -1,0 +1,64 @@
+.terms {
+    background: #f7f9fc;
+}
+
+.terms-card {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    color: #444;
+}
+
+.terms-card h1 {
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.intro {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.terms-section {
+    margin-top: 35px;
+    text-align: start;
+}
+
+.terms-section h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.terms-section ul {
+    padding-left: 20px;
+}
+
+.terms-section li {
+    margin-bottom: 8px;
+}
+
+.highlight {
+background-color: rgba(var(--main-color-rgb), 0.1);
+        padding: 10px 15px;
+    border-left: 4px solid var(--main-color);
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.contact-us a {
+    color: var(--main-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-us a:hover {
+    text-decoration: underline;
+}

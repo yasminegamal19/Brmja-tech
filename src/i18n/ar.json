@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "portfolio": "أعمالنا",
+    "hosting_prices": "أسعار الاستضافة",
+    "contact": "تواصل معنا",
+    "language_ar": "العربية",
+    "language_en": "English"
+  }
+}

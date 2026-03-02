@@ -1,0 +1,12 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "hosting_prices": "Hosting Prices",
+    "contact": "Contact Us",
+    "language_ar": "Arabic",
+    "language_en": "English"
+  }
+}
