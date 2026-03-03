@@ -35,7 +35,7 @@
 .about .accordion-button:not(.collapsed) {
     background-color: var(--main-color);
     color: #eee;
-        box-shadow: none;
+    box-shadow: none;
 }
 .accordion-icon {
     font-size: 20px;
@@ -92,4 +92,14 @@
     .img{
         margin-bottom: 30px;
     }
+}
+
+
+[dir="rtl"] .accordion-button {
+    flex-direction: row;
+    text-align: right;
+}
+
+[dir="rtl"] .accordion-button .accordion-icon {
+    margin-right: 12px;
 }
