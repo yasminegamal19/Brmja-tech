@@ -19,7 +19,13 @@
     color: #334155;
     margin-bottom: 6px;
 }
+[dir="rtl"] .service-request .form-label {
+    text-align: right;
+}
 
+[dir="rtl"] .service-request form select {
+    background-position: left 12px center;
+}
 .service-request .form-control,
 .service-request .form-select {
     border-radius: 12px;
