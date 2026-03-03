@@ -7,7 +7,7 @@ const Hosting = ({title}) => {
      <div className="hosting py-5" id="hosting">
        <div className="container">
          <MainTitle title="Hosting Prices" />
-         <div className="row">
+         <div className="row justify-content-center">
            <HostingItem />
          </div>
        </div>

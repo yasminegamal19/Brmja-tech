@@ -1,3 +1,4 @@
+import react from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -11,8 +12,19 @@ import RequestService from './Shared/Pages/RequestService/RequestService';
 import ScrollToTop from './Shared/Components/Scroll/Scroll';
 import Privacy from './Shared/Pages/Privacy/Privacy';
 import Terms from './Shared/Pages/Terms/Terms';
+import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
+
 
 function App() {
+
+  const {t, i18n } = useTranslation();
+  
+    useEffect(() => {
+    document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+    document.body.className = i18n.language === "ar" ? "lang-ar" : "lang-en";
+  }, [i18n.language]);
+  
   return (
     <div className="App">
     <Navbar />

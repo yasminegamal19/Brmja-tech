@@ -40,6 +40,12 @@
     color: #334155;
     margin-bottom: 6px;
 }
+[dir="rtl"] .contact .form-label {
+    text-align: right;
+}
+[dir="rtl"] .contact form select {
+    background-position: left 12px center;
+}
 .contact .form-control,
 .contact .form-select {
     border-radius: 12px;

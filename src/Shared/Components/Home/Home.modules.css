@@ -10,7 +10,7 @@
 }
 .home-wrapper {
     position: relative;
-    z-index: 10;
+    /* z-index: 10; */
 }
 .home {
     position: relative;

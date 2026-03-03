@@ -37,3 +37,13 @@
 .copy-right{
     background-color: #000;
 }
+
+[dir="rtl"] .footer .location i,
+[dir="rtl"] .footer .call-center i {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+[dir="rtl"] .footer h6 {
+    text-align: right;
+}

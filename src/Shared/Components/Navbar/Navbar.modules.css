@@ -71,7 +71,7 @@
     padding: 20px;
     background-color: #eee;
     transition: left 0.3s ease;
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .mobile-menu.show {
