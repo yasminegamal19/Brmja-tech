@@ -1,6 +1,7 @@
 import { memo } from "react";
 import "./WhyBrmja.modules.css";
 import MainTitle from "../MainTitle/MainTitle";
+
 const statsData = [
   { number: "5+", label: "Years Experience" },
   { number: "150+", label: "Completed Projects" },
